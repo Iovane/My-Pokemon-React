@@ -1,0 +1,98 @@
+body.light {
+  background-color: white;
+  color: black;
+}
+
+/* Define dark theme styles */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+header, footer {
+  background-color: #3D7DCA;
+}
+
+main {
+  min-height: 100vh;
+  margin-bottom: -70px;
+}
+
+footer, .push {
+  height: 70px;
+}
+
+.SearchContent {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.Message {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.SearchContent input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.SearchContent button {
+  width: 180px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color:  white;
+  background-color: #FFCB05;
+}
+
+
+.SearchContent button:hover {
+  cursor: pointer;
+}
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DisplaySection img {
+  width: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  width: 90%;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+
+
+.themeButton {
+  // float: right;
+}
+
+
+
